@@ -11,9 +11,16 @@ body {
 
 .container {
   max-width: 900px;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 40px 16px;
+  padding: 40px 16px 32px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
 }
 
 h1 {
@@ -39,17 +46,27 @@ video {
   display: block;
 }
 
+.backup-section {
+  margin-top: auto;
+  padding-top: 50px;
+}
+
+.backup-note {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 18px;
+}
+
 .backup-links {
-  margin-top: 24px;
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 28px;
   flex-wrap: wrap;
 }
 
 .button {
   display: inline-block;
-  padding: 12px 22px;
+  padding: 12px 24px;
   background: #222;
   color: #fff;
   text-decoration: none;
