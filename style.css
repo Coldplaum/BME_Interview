@@ -18,16 +18,19 @@ body {
 
 h1 {
   font-size: 36px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .desc {
   font-size: 18px;
   color: #666;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .video-box {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
   background: #000;
   border-radius: 16px;
   overflow: hidden;
@@ -36,7 +39,9 @@ h1 {
 
 video {
   width: 100%;
+  height: auto;
   display: block;
+  background: #000;
 }
 
 .note {
