@@ -18,19 +18,16 @@ body {
 
 h1 {
   font-size: 36px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .desc {
   font-size: 18px;
   color: #666;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .video-box {
-  width: 100%;
-  max-width: 420px;
-  margin: 0 auto;
   background: #000;
   border-radius: 16px;
   overflow: hidden;
@@ -39,13 +36,31 @@ h1 {
 
 video {
   width: 100%;
-  height: auto;
   display: block;
-  background: #000;
 }
 
-.note {
-  margin-top: 20px;
-  color: #777;
-  font-size: 14px;
+.backup-links {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+.button.secondary {
+  background: #666;
 }
